@@ -1,0 +1,36 @@
+body {
+
+}
+
+a: hover {
+  font-weight:bold;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.img_button {
+  background:url(images/sleepyCat.jpg);
+  cursor:crosshair;
+  width: 300px;
+  height: 200px;
+}
+
+.columns {
+  display: flex;
+}
+
+.main-column {
+  flex: 2;
+  flex-direction: column;
+}
+
+.sub-column {
+  flex: 1;
+  flex-direction: column;
+}
+
+.article {
+  flex: 1;
+}
